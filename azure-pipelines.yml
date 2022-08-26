@@ -10,7 +10,7 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: 'fcc3c205-7409-4762-b258-6a131ac5ef6e'
+  dockerRegistryServiceConnection: 'sconn_acr'
   imageRepository: 'abhijeetskothariazuredevopsbuildtoacr'
   containerRegistry: 'myazureregistryspace.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/node-app/Dockerfile'
