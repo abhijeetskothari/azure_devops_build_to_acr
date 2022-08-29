@@ -6,7 +6,7 @@ COPY . /app/
 
 RUN npm install 
 
-EXPOSE 7007
+EXPOSE 7009
 
 CMD [ "node", "server.js"]
 
